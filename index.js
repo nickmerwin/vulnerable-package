@@ -10,7 +10,7 @@ function unusedVulnerableFunction() {
     console.log('vulnerable but unused')
 }
 
-export {
+module.exports = {
     safeFunction,
     vulnerableFunction,
     unusedVulnerableFunction
